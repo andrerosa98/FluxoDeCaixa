@@ -12,6 +12,6 @@ public class cabecalho{
         for (int i = 0; i < postos.length; i++){
             System.out.println((i+1) + " - " + postos[i]);
         }
-        System.out.println("Digite o posto desejado: ");
+        System.out.print("Digite o posto desejado: ");
     }
 }
