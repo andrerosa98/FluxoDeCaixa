@@ -9,6 +9,7 @@ public class cabecalho{
 
     public static void Entradas(){
         String[] postos = {"Finsocial", "João Bráz", "Matriz", "Climed", "Hospital São Domingos", "Sair"};
+        System.out.println("***** SELEÇÃO DE POSTO *****");
         for (int i = 0; i < postos.length; i++){
             System.out.println((i+1) + " - " + postos[i]);
         }
